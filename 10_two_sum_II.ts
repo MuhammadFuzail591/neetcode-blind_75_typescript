@@ -32,4 +32,4 @@ function twoSum2 (numbers: number[], target: number): number[] {
   return []
 }
 
-console.log(twoSum2([2,7,11,15], 9))
+console.log(twoSum2([2, 7, 11, 15], 9))
