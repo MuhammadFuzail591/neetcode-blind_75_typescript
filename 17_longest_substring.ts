@@ -1,7 +1,7 @@
 function longestSubstring (s: string): number {
   let max_length = 0
-  let seen: { [key: string]: number } = {}
   let start = 0
+  let seen: { [key: string]: number } = {}
 
   for (let i = 0; i < s.length; i++) {
     seen[s[i]] = (seen[s[i]] || 0) + 1
@@ -15,5 +15,7 @@ function longestSubstring (s: string): number {
 
   return max_length
 }
+
+
 
 longestSubstring('abcabcbb')
